@@ -2,16 +2,399 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- Required meta tags -->
+       <meta charset="utf-8" />
+       <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+       />
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+       <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+         crossorigin="anonymous"
+       />
+       <link rel="stylesheet" href="albumstyles.css" />
+       <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500&display=swap"
+         rel="stylesheet"
+       />
+       <!-- font awesome -->
+       <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+       />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ <style>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
+
+
+#hero-container {
+  background: rgb(19, 19, 19);
+  background: rgb(184, 67, 152);
+  background: linear-gradient(
+    180deg,
+    rgba(184, 67, 152, 1) 6%,
+    rgba(158, 55, 129, 1) 50%,
+    rgba(55, 23, 45, 1) 83%
+  );
+  color: white;
+}
+
+
+
+.display-4 {
+  letter-spacing: 1px;
+}
+#table-container {
+  padding: 0px;
+}
+
+
+
+#color1 {
+  height: 6rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+}
+  </style>
   
+    <title>Album Page</title>
+
+
+
+  </head>
+ 
+      
+    <body class="album-body">
+      <div class="container-fluid main-Container">
+        <div class="row">
+  
+  
+  
+  
+  
+   <div class="col-10 px-0" id="sarada">
+            <div class="px-0 container-fluid">
+              <!-- <album> -->
+              <section id="album-section">
+                <div class="container-fluid" id="hero-container">
+                  <div class="row">
+                    <a href="#" class="previous round">&#8249;</a>
+                    <a href="#" class="next round">&#8250;</a>
+  
+                    <div
+                      class="dropdown d-flex justify-content-end"
+                      style="margin-top: 10px"
+                    >
+                      <button
+                        class="btn btn-dark badge-pill dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <img
+                          id="profilePic"
+                          src="https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg"
+                        />
+                        Username
+                      </button>
+                      <div
+                        class="dropdown-menu bg-dark"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item text-white" type="button">
+                          Account
+                        </button>
+                        <button class="dropdown-item text-white" type="button">
+                          Profile
+                        </button>
+                        <button class="dropdown-item text-white" type="button">
+                          Private Session
+                        </button>
+                        <button class="dropdown-item text-white" type="button">
+                          Settings
+                        </button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item text-white" type="button">
+                          Update Spotify now
+                        </button>
+                       <button onclick="location.href='login.html'" class="dropdown-item text-white" type="button">Log out</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" id="image-align">
+                    <div class="col-4 col-sm-4 col-lg-3 col-xl-3">
+                      <img src="./Asset/Bohemain.jpg" class="img-fluid" />
+                    </div>
+                    <div
+                      class="albumTextContainer col-8 col-sm-8 col-lg-9 col-xl-9"
+                    >
+                      <p class="display-7 d-none d-sm-none d-md-flex">
+                        <small style="font-weight: bold;">ALBUM</small>
+                        <strong id="fontfirst" style="font-size: 40px">Bohemian Rhapsody(The Original Soundtrack)</strong>
+  
+                        <small style="font-size: 15px"
+                          ><strong>Queen &#8226</strong> 2018 &#8226; 22 songs, 1 hr 19mins</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Table section -->
+              <section id="table-section">
+                <div id="color1">
+                  <div class="buttonBox">
+                    <button class="button play" style="display: inline"></button>
+                  </div>
+                  <div id="heart">
+                    <i class="bi bi-heart"></i>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="46"
+                      height="46"
+                      fill="currentColor"
+                      color="white"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </div>
+                  <div id="heart">
+                    <i class="bi bi-three-dots"></i>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="56"
+                      height="56"
+                      fill="currentColor"
+                      color="white"
+                      class="bi bi-three-dots"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+  
+                <div class="container-fluid" id="table-container">
+                  <table class="table table-dark table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col" style="width: 5%" class="text-muted">#</th>
+                        <th scope="col" colspan="2" class="text-muted">TITLE</th>
+                        <th scope="col">
+                          <i class="bi bi-stopwatch text-muted"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="34"
+                            height="26"
+                            fill="currentColor"
+                            class="bi bi-stopwatch text-muted"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"
+                            />
+                            <path
+                              d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"
+                            />
+                          </svg>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                      <tr>
+                        <th scope="row">1</th>
+                        <td colspan="2">20th Century Fox Firm Fare</td>
+                        <td>0:25</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td colspan="2">Somebody To Love</td>
+                        <td>4:55</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Doing All Right - ...Revisited</td>
+                        <td>3:16</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">Keep Yourself Alive - Live At The Rainbow</td>
+                        <td>3:56</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td colspan="2">Killer Queen</td>
+                        <td>2:59</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Fat Bottomed Birls - Live In Paris</td>
+                        <td>4:37</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td colspan="2">Bohemian Rhapsody</td>
+                        <td>5:54</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td colspan="2">Now I'm Here - Live At The Hammersmith Odeon</td>
+                        <td>2:43</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td colspan="2">Crazy Little Thing Called Love</td>
+                        <td>4mins</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid mediaPlayerFooter">
+        <div class="row">
+          <div class="col-2 leftFooter d-none d-sm-none d-md-flex">
+            <!-- horizontal Card - currently played Song -->
+            <div class="currentlyPlayed">
+              <img
+                onclick="displayfull()"
+                src="./Asset/mediaiconpic-aligate.jfif"
+                class="img-fluid"
+                id="AligateSize"
+              />
+            </div>
+            <div class="currentPlayedSongInfo ml-2 mt-3">
+              <p class="card-text my-0">it's You</p>
+              <p class="card-text my-0">
+                <small class="text-muted">Ali Gate</small>
+              </p>
+            </div>
+            <div id="heart">
+              <button id="footerButton">
+                <i class="far fa-heart text-muted"></i>
+              </button>
+            </div>
+            <!-- <div id="fullscreen">
+              <button id="fullscreenbutton"> 
+                <i class="fas fa-expand-alt"></i>
+             </button> 
+            </div>  -->
+          </div>
+          <div class="col-8 middleFooter mt-2">
+            <div class="col-12 mt-2">
+              <div id="shuffle">
+                <button id="footerButton">
+                  <i class="fas fa-random text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="backward">
+                <button id="footerButton">
+                  <i class="fas fa-step-backward text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="play">
+                <button id="footerButton">
+                  <i class="fas fa-play-circle text-white"></i>
+                </button>
+              </div>
+  
+              <div id="forward">
+                <button id="footerButton">
+                  <i class="fas fa-step-forward text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="repeat">
+                <button id="footerButton">
+                  <i class="fas fa-redo-alt text-muted"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-12">
+              <p id="minute1" class="mx-2 my-2 text-muted" >1:32</p>
+              <progress
+                class="mx-2 my-2"
+                id="file"
+                max="190"
+                value="80"
+                fill="white"
+              ></progress>
+              <p id="minute2" class="mx-2 my-2 text-muted">2:34</p>
+            </div>
+          </div>
+          <div class="col-2 rightFooter mt-4 d-none d-sm-none d-md-flex">
+            <div id="queue">
+              <button id="footerButton">
+                <i class="fas fa-list text-muted"></i>
+              </button>
+            </div>
+  
+            <div id="device">
+              <button id="footerButton">
+                <i class="fas fa-laptop text-muted"></i>
+              </button>
+            </div>
+  
+            <div id="volume" class="mr-1">
+              <button id="footerButton">
+                <i class="fas fa-volume-up text-muted"></i>
+              </button>
+            </div>
+  
+            <progress
+              id="volumeProgress"
+              max="90"
+              value="50"
+              
+              class= "text-muted"
+            ></progress>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
