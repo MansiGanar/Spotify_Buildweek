@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+}
+.container {
+  /* min-width: 600px; */
+  max-width: 600px !important;
+}
+.spotify-logo {
+  width: 150px;
+  filter: grayscale(100%);
+  margin-top: 20px;
+}
+button {
+  width: 70%;
+}
+.input-group {
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+/* .form-check-input {
+  width: 80%;
+  position: absolute;
+  right: 43%;
+} */
+
+/* .remember-me-checkbox {
+  position: relative;
+  right: 33%;
+} */
+
+.alignright {
+  float: right;
+}
+
+.login-button {
+  width: 130px;
+  height: 35px;
+  border: none;
+  cursor: default !important;
+}
+
+.forget-password {
+  font-size: 14px;
+}
+.sign-up {
+  border: 1px solid;
+}
+.sign-up:hover {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.text-muted {
+  font-size: 12px;
+}
+span {
+  color: #5cb85c;
+}
+
+@media only screen and (max-width: 600px) {
+  .facebook-button {
+    visibility: visible;
+  }
+  .standard {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .facebook-button {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .facebook-button {
+    display: none;
+  }
+}
