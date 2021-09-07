@@ -1,0 +1,67 @@
+body{
+    background: rgb(105,9,9);
+    background: linear-gradient(180deg, rgba(105,9,9,0.9304096638655462) 9%, rgba(0,0,0,1) 37%);
+}
+
+.dropdown{
+    margin: 0;
+    padding: 0 !important;
+    background-color: rgba(0,0,0,0.5);
+    color: white !important;
+    position: absolute;
+    right: 17px;
+}
+.nav-link{
+    padding: 0 !important;
+}
+.con{
+    
+
+    position: relative;
+    left: 10vw;
+    width: 90vw;
+    height: 90vh;
+    overflow-x: hidden;
+}
+.card{
+    background-color: transparent !important;
+
+}
+.img1{
+    max-width: 64px;
+    border-radius: 5px;
+}
+.music-card{
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 80vw;
+    height: auto;
+    border:  1px;
+    border-radius: 5px;
+}
+h5{
+    color: rgb(255, 255, 255, 0.4);
+
+}
+.music-card2{
+    background-color: rgb(255, 255, 255, 0.1) !important;
+    width: auto;
+    height: auto;
+    border:  1px;
+    border-radius: 5px;
+}
+.card-text{
+    color: rgb(255, 255, 255, 0.4);
+}
+h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(255, 255, 255, 0.2) !important;
+    cursor: pointer;
+}
+.music-card:hover{
+    background-color: rgb(255, 255, 255, 0.2) !important;
+    cursor: pointer;
+
+}
