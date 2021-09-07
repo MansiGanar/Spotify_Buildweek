@@ -7,9 +7,8 @@ body {
 }
 .spotify-logo {
   width: 150px;
-  fill: # !important;
-
-  margin-top: 20px;
+  height: 100px;
+  fill: #000 !important;
 }
 
 button {
@@ -95,13 +94,43 @@ span {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .facebook-button {
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) {
   .facebook-button {
     display: none;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 993px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (min-width: 593px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
+  }
+}
+@media only screen and (min-width: 372px) {
   .login-btn {
     width: 100px;
     float: right;
