@@ -7,16 +7,18 @@ body {
 }
 .spotify-logo {
   width: 150px;
-  filter: grayscale(100%);
+  fill: # !important;
+
   margin-top: 20px;
 }
+
 button {
-  width: 70%;
+  width: 80%;
 }
 .input-group {
-  width: 70%;
+  width: 80%;
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 /* .form-check-input {
   width: 80%;
@@ -57,6 +59,17 @@ button {
 span {
   color: #5cb85c;
 }
+.container-for-footer {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center !important;
+}
+
+/* .checkbox-login {
+  width: 80%;
+  margin-left: 13px;
+  padding-right: 0%;
+} */
 
 @media only screen and (max-width: 600px) {
   .facebook-button {
@@ -64,6 +77,15 @@ span {
   }
   .standard {
     display: none;
+  }
+  .login-btn {
+    width: 100px;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 35px;
   }
 }
 
@@ -76,5 +98,18 @@ span {
 @media only screen and (min-width: 768px) {
   .facebook-button {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
   }
 }
