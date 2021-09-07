@@ -29,13 +29,7 @@ body {
   right: 1rem;
 }
 
-/* .hero-section-borderless{
-  position: relative;
-}
-.hero-section-borderless .container-fluid{
-  position: absolute;
-  left:0;
-} */
+
 
 h4 {
   color: white;
@@ -273,7 +267,7 @@ a:hover {
   background-color: black;
 }
 #table-container > table > tbody > tr:hover {
-  background-color: rgb(28, 202, 80);
+  background-color: rgb(202, 28, 135);
 }
 
 #table-container > table > thead {
@@ -315,7 +309,7 @@ a:hover {
 
 
 
-/* S*/
+/* */
 
 
 
@@ -323,11 +317,11 @@ td {
   transition: 0.1s ease;
 }
 
-td:hover {
+/* td:hover {
   transform: scale(1.0);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-}
+} */
 
 #footerButton {
   transition: 0.2s ease;
