@@ -36,7 +36,7 @@ body {
 #arrow-right {
     position: absolute;
     top: 20px;
-    left: 30px;
+    left: 40px;
 
 }
 
@@ -116,6 +116,10 @@ body {
     height: 200px;
 }
 
+td {
+    
+}
+
 /* side bar CSS */
 
 .line {
@@ -185,8 +189,8 @@ li {
   }
 
   .col-2 {
-      padding: 5px;
-      padding-left: 15px;
+      padding: 20px;
+      padding-right: 10px;
   }
 
   #people {
@@ -195,6 +199,25 @@ li {
   }
 
   #createPlaylist {
+
       background-color: rgb(156, 156, 156) ;
       color: black;
+  }
+
+  h1 {
+      font-size: 70px;
+      font-weight: bold;
+      position: absolute;
+      top: 180px;
+      left: 30px;
+  }
+
+  #verified {
+      position: absolute;
+      top: 160px;
+      left: 30px;
+  }
+
+  #alignedCards {
+      align-items: baseline;
   }
