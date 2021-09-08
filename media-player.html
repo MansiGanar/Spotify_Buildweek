@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="media-player.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -46,64 +47,75 @@
     />
 
     <div class="d-flex pt-2">
-      <div class="row" style="width: 100%; height: 50px">
+      <div class="row" style="width: 100%; height: 30px">
         <div class="col-1 pr-0">
           <img
-            class="mt-2 ml-1 mb-2"
-            src="https://images.unsplash.com/photo-1616431842618-bdf65d9befd9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=992&q=80"
+            class="ml-2 mb-2"
+            src="https://i1.sndcdn.com/artworks-FD1flQ4zf6nzywoo-dyuxAw-t500x500.jpg"
             alt=""
-            style="width: 45px"
+            style="width: 60px"
           />
         </div>
         <div class="col-3">
           <div class="row">
-            <div class="col pl-0 ">
+            <div class="col pl-0">
               <h6>Mere jhidoasd</h6>
               <p>Queens</p>
             </div>
-            <i class="far fa-heart pr-2 "> </i>
-            <i class="fas fa-tablet-alt pr-1"></i>
+            <a href=""> <i class="far fa-heart pr-3"> </i></a>
+            <a href=""> <i class="fas fa-tablet-alt pr-5"></i></a>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-5">
           <div class="col">
-            <div class="row  justify-content-between"">
-              <i class="fas fa-random"></i>
-              <i class="fas fa-step-backward"></i>
-              <i class="far fa-play-circle"></i>
-              <i class="fas fa-step-forward"></i>
-              <i class="fas fa-redo"></i>
+            <div class="row justify-content-center">
+              <a href=""> <i class="fas fa-random pl-5 mt-1 mr-3"></i></a>
+              <a href="">
+                <i
+                  class="fas fa-step-backward mt-1 mr-3"
+                  style="font-size: 20px"
+                ></i
+              ></a>
+              <a href="">
+                <i class="fas fa-play-circle mr-3" style="font-size: 30px"></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fas fa-step-forward mt-1 mr-3"
+                  style="font-size: 20px"
+                ></i
+              ></a>
+              <a href=""> <i class="fas fa-redo pr-5 mt-1 mr-3"> </i></a>
             </div>
-            <div class="row  justify-content-between" ">
-              <p>0:00</p>
+            <div class="row justify-content-between">
+              <p class="pl-4">0:00</p>
               <div
                 class="progress-bar progress-bar-color mt-2"
                 role="progressbar"
-                style="width: 50%; height: 5px"
+                style="width: 70%; height: 5px"
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
               ></div>
-              <p>1:00</p>
+              <p class="pr-3">1:00</p>
             </div>
           </div>
         </div>
         <div class="col p-1">
-            <div class="row p-1 ">
-                <i class="fas fa-list p-1"></i>
-                <i class="fas fa-server p-1"></i>
-                <i class="fas fa-volume-up p-1"></i>
-                <div
-                class="progress-bar progress-bar-color mt-2 p-1"
-                role="progressbar"
-                style="width: 50%; height: 5px"
-                aria-valuenow="100"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-
-            </div>
-           
+          <div class="row pl-5">
+            <i class="fas fa-list p-1 pl-2"></i>
+            <i class="fas fa-server p-1 pl-2"></i>
+            <i class="fas fa-volume-up p-1"></i>
+            <!-- <div
+              class="progress-bar progress-bar-color mt-2 p-1"
+              role="progressbar"
+              style="width: 50%; height: 3px"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div> -->
+            <input type="range" id="vol" name="vol" min="0" max="50" />
+          </div>
         </div>
       </div>
     </div>
