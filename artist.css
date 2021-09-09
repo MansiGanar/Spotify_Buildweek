@@ -22,8 +22,11 @@ body {
   margin: 0%;
 }
 
-.jumbotron {
-  position: relative;
+#queen-cover {
+  
+  min-width: 200px;
+    max-width: 100%;
+    height: 100%;
 }
 
 #arrow-left {
@@ -100,10 +103,17 @@ body {
 .table {
   height: 200px;
 }
+/* 
+div.card:hover {
 
-td {
+  background-color: rgba(128, 128, 128, 0.219);
+  
+  
+} */
+
+/* td {
     
-}
+} */
 
 /* side bar CSS */
 
@@ -118,12 +128,34 @@ td {
   font-weight: bold;
 }
 
-.sideImg {
-  vertical-align: 50%;
-}
+
 
 #sidebarBody {
   padding: 0%;
+}
+
+a {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 ul {
@@ -164,7 +196,7 @@ li {
     background: #555;
   }
 
-  .col-10 {
+  .col-lg-10 {
       padding: 0%;
   }
 
@@ -184,20 +216,36 @@ li {
       color: black;
   }
 
-  h1 {
+  #queen {
       font-size: 70px;
       font-weight: bold;
       position: absolute;
-      top: 180px;
+      top: 60%;
       left: 30px;
   }
 
   #verified {
       position: absolute;
-      top: 160px;
+      top: 53%;
       left: 30px;
   }
 
-  #alignedCards {
-      align-items: baseline;
+  #queenListeners {
+    position: absolute;
+    left: 30px;
+    top: 90%;
   }
+
+  .alignedCards {
+      align-items: baseline;
+      padding-left: 5px;
+  }
+
+  div.alignedCards:hover {
+
+    background-color: rgba(145, 144, 144, 0.274);
+    border-radius: 2px;
+
+  }
+  
+  
