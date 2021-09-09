@@ -111,9 +111,6 @@ div.card:hover {
   
 } */
 
-/* td {
-    
-} */
 
 /* side bar CSS */
 
@@ -200,7 +197,7 @@ li {
       padding: 0%;
   }
 
-  .col-2 {
+  .col-2.d-none.d-lg-inline {
       padding: 20px;
       padding-right: 10px;
   }
@@ -247,5 +244,29 @@ li {
     border-radius: 2px;
 
   }
+
+  .music-player{
+    position: absolute;
+    width:100vw;
+    height: 12vh;
+    border-top: solid 1px gray;
+    background-color: rgb(0, 0, 0) !important;
+    overflow-y: hidden;
+  }
+  .p-music{
+    color: rgba(248, 248, 248, 0.459);
+  }
+
+  #slider{
+    -webkit-appearance: unset;
+    width: 80vw;
+    height: 4px;
   
+  }
+  #slider2{
+    -webkit-appearance: unset;
+    height: 4px;
+  
+  }
+
   
