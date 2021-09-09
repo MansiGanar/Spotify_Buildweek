@@ -13,14 +13,24 @@ body {
   width: 40px;
 }
 .dropdown {
+  width: 100px;
+  height: 50px;
   margin: 0;
   padding: 0 !important;
-  background-color: rgba(0, 0, 0, 0.5);
   color: white !important;
   position: absolute;
-  right: 17px;
-  top: 2vh;
+  right: 1.5vw;
   border-radius: 10px;
+}
+.dropdown-menu{
+  display: absolute;
+  left: auto;
+}
+#profilePic {
+  position: relative;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
 }
 .nav-link {
   padding: 0 !important;
