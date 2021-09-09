@@ -360,3 +360,41 @@ td {
   right: -15px;
   bottom: 22px;
 }
+/* Media player */
+.music-player{
+  position: absolute;
+  width:100vw;
+  height: 12vh;
+  border-top: solid 1px gray;
+  background-color: rgb(0, 0, 0) !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.p-music{
+  color: rgba(248, 248, 248, 0.459);
+}
+#slider{
+  -webkit-appearance: unset;
+  width: 80vw;
+  height: 4px;
+
+}
+#slider2{
+  -webkit-appearance: unset;
+  height: 4px;
+
+}
+@media only screen and (min-width:850px) {
+  #slider{
+    width: 50vw !important;
+  }
+
+}
+@media only screen and (max-width:850px) {
+  .rmusic{
+    display: none !important;
+  }
+  .lmusic{
+    display: none !important;
+  }
+}
