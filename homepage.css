@@ -59,6 +59,8 @@ h5 {
 .card-text {
   color: rgb(255, 255, 255, 0.4);
 }
+/* music player css */
+
 .music-player{
   position: absolute;
   width:100vw;
@@ -81,6 +83,8 @@ h5 {
   height: 4px;
 
 }
+
+/* music player end */
 h5:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -94,12 +98,7 @@ h5:hover {
   cursor: pointer;
 }
 @media only screen and (max-width:850px)  {
-  .rmusic{
-    display: none !important;
-  }
-  .lmusic{
-    display: none !important;
-  }
+  
   .sidebarcon{
     display: none;
   }
@@ -111,15 +110,22 @@ h5:hover {
     overflow-x: hidden;
   }
 }
+/* music player */
 @media only screen and (min-width:850px) {
   #slider{
     width: 50vw !important;
   }
   
 }
-@media only screen and (max-width:) {
-  
+@media only screen and (max-width:850px) {
+  .rmusic{
+    display: none !important;
+  }
+  .lmusic{
+    display: none !important;
+  }
 }
+/* music player end */
 
 .sidebarcon{
   position: absolute;
