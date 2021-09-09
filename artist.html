@@ -22,7 +22,10 @@
   <body>
     <div class="container-fluid general">
       <div class="row">
-        <div class="col-2">
+
+        <!-- side bar -->
+
+        <div class="col-2 d-none d-lg-inline">
           <div class="row">
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <svg
@@ -38,7 +41,7 @@
           </div>
           <div class="row line">
             <div class="card mb-3" id="sideBar">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards" >
                 <div class="col-md-2 sideImg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -55,13 +58,13 @@
                 </div>
                 <div class="col-md-10">
                   <div class="card-body" id="sidebarBody">
-                    <p class="card-title">Home</p>
+                    <a href="homepage.html"><p class="card-title">Home</p></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="card mb-3" id="sideBar">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards" >
                 <div class="col-md-2 sideImg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +87,7 @@
               </div>
             </div>
             <div class="card mb-3" id="sideBar">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards">
                 <div class="col-md-2 sideImg">
                   <img
                     src="library.png"
@@ -101,7 +104,7 @@
             </div>
 
             <div class="card mb-3" id="sideBar" style="margin-top: 15px">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards">
                 <div class="col-md-2 sideImg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +128,7 @@
               </div>
             </div>
             <div class="card mb-3" id="sideBar">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards">
                 <div class="col-md-2 sideImg">
                   <img
                     src="favoritesongs.png"
@@ -210,7 +213,7 @@
           </div>
           <div class="row">
             <div class="card mb-3" id="sideBar">
-              <div class="row no-gutters" id="alignedCards">
+              <div class="row no-gutters alignedCards">
                 <div class="col-md-2 sideImg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -235,8 +238,8 @@
             </div>
           </div>
         </div>
-        <div class="col-10">
-          <div class="row">
+        <div class="col-12 col-lg-10">
+          <div class="row" style="position: relative;">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -266,22 +269,49 @@
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
               />
             </svg>
+            
+           
+              <div class="container-fluid" style="padding: 0%; height: 330px;">
+                <img
+                src="queen-cover.png"
+                class="img-fluid"
+                alt="..."
+                id="queen-cover"/>
 
-            <img
-              src="queen-cover.png"
-              alt="..."
-              style="width: 1400px; height: 290px"
-            />
+             
 
-            <img
-              src="Schermata 2021-09-07 alle 00.28.12.png"
-              alt="..."
-              style="width: 15px; height: 15px"
-            />
-            <p>Verified</p>
+            <div class="card mb-3" id="verified">
+              <div class="row no-gutters" style="align-items: baseline;">
+                <div class="col-md-1">
+                  <img
+                  src="Schermata 2021-09-07 alle 00.28.12.png"
+                  alt="verified"
+                  style="width: 15px; height: 15px"
+                />
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"
+                    />
+                  </svg>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body" id="sidebarBody">
+                    <p class="card-title" style="padding: 0%">Verified Artist</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+                <h1 id="queen">Queen</h1>
+                <p id="queenListeners" style="font-size: 10px">37,120,733 monthly listeners</p>
+              </div>
+            
+            
+            
+           
 
-            <h1>Queen</h1>
-            <p style="font-size: 10px">37,120,733 monthly listeners</p>
+           
+            
           </div>
           <div class="row gradBg">
             <div class="col-8">
@@ -331,7 +361,7 @@
                   <tr>
                     <th scope="row">
                       <div class="card mb-3">
-                        <div class="row no-gutters">
+                        <div class="row no-gutters alignedCards">
                           <div class="col-md-2 songImg">
                             <img
                               src="Schermata 2021-09-07 alle 00.11.35.png"
@@ -364,7 +394,7 @@
                   <tr>
                     <th scope="row">
                       <div class="card mb-3">
-                        <div class="row no-gutters">
+                        <div class="row no-gutters alignedCards">
                           <div class="col-md-2 songImg">
                             2 <img src="another.jpeg" alt="..." id="cardImg" />
                           </div>
@@ -384,7 +414,7 @@
                   <tr>
                     <th scope="row">
                       <div class="card mb-3">
-                        <div class="row no-gutters">
+                        <div class="row no-gutters alignedCards">
                           <div class="col-md-2 songImg">
                             3 <img src="another.jpeg" alt="..." id="cardImg" />
                           </div>
@@ -404,7 +434,7 @@
                   <tr>
                     <th scope="row">
                       <div class="card mb-3">
-                        <div class="row no-gutters">
+                        <div class="row no-gutters alignedCards">
                           <div class="col-md-2 songImg">
                             4 <img src="another.jpeg" alt="..." id="cardImg" />
                           </div>
@@ -424,7 +454,7 @@
                   <tr>
                     <th scope="row">
                       <div class="card mb-3">
-                        <div class="row no-gutters">
+                        <div class="row no-gutters alignedCards">
                           <div class="col-md-2 songImg">
                             5 <img src="another.jpeg" id="cardImg" alt="..." />
                           </div>
@@ -449,7 +479,7 @@
               <div class="row" style="height: 85px"></div>
               <h4>Artist pick</h4>
               <div class="card mb-3" style="max-width: 200px">
-                <div class="row no-gutters">
+                <div class="row no-gutters alignedCards">
                   <div class="col-md-4">
                     <img
                       src="another.jpeg"
@@ -470,6 +500,106 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid mediaPlayerFooter ">
+        <div class="row">
+          <div class="col-2 leftFooter d-none d-sm-none d-md-flex">
+            
+            <div class="currentlyPlayed">
+              <img
+                
+                src="./Asset/mediaiconpic-aligate.jfif"
+                class="img-fluid"
+                id="AligateSize"
+              />
+            </div>
+            <div class="currentPlayedSongInfo ml-2 mt-3">
+              <p class="card-text my-0 text-muted">it's You</p>
+              <p class="card-text my-0">
+                <small class="text-muted">Ali Gate</small>
+              </p>
+            </div>
+            <div id="heart">
+              <button id="footerButton">
+                <i class="far fa-heart text-muted"></i>
+              </button>
+            </div>
+          
+          </div>
+          <div class="col-8 middleFooter mt-2">
+            <div class="col-12 mt-2">
+              <div id="shuffle">
+                <button id="footerButton">
+                  <i class="fas fa-random text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="backward">
+                <button id="footerButton">
+                  <i class="fas fa-step-backward text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="play">
+                <button id="footerButton">
+                  <i class="fas fa-play-circle text-white"></i>
+                </button>
+              </div>
+  
+              <div id="forward">
+                <button id="footerButton">
+                  <i class="fas fa-step-forward text-muted"></i>
+                </button>
+              </div>
+  
+              <div id="repeat">
+                <button id="footerButton">
+                  <i class="fas fa-redo-alt text-muted"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-12">
+              <p id="minute1" class="mx-2 my-2 text-muted" >1:32</p>
+              <progress
+                class="mx-2 my-2"
+                id="file"
+                max="190"
+                value="80"
+                fill="white"
+              ></progress>
+              <p id="minute2" class="mx-2 my-2 text-muted">2:34</p>
+            </div>
+          </div>
+          <div class="col-2 rightFooter mt-4 d-none d-sm-none d-md-flex">
+            <div id="queue">
+              <button id="footerButton">
+                <i class="fas fa-list text-muted"></i>
+              </button>
+            </div>
+  
+            <div id="device">
+              <button id="footerButton">
+                <i class="fas fa-laptop text-muted"></i>
+              </button>
+            </div>
+  
+            <div id="volume" class="mr-1">
+              <button id="footerButton">
+                <i class="fas fa-volume-up text-muted"></i>
+              </button>
+            </div>
+  
+            <progress
+              id="volumeProgress"
+              max="90"
+              value="50"
+              
+              class= "text-muted"
+            ></progress>
+          </div>
+        </div>
+      </div>
+
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
