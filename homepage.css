@@ -32,7 +32,7 @@ body {
   height: 88vh;
   overflow-x: hidden;
 }
-.card {
+.con.card {
   background-color: transparent !important;
 }
 .img1 {
@@ -100,7 +100,16 @@ h5:hover {
   .lmusic{
     display: none !important;
   }
-  
+  .sidebarcon{
+    display: none;
+  }
+  .con {
+    position: relative;
+    left: 0;
+    width: 100vw !important;
+    height: 88vh;
+    overflow-x: hidden;
+  }
 }
 @media only screen and (min-width:850px) {
   #slider{
@@ -108,3 +117,212 @@ h5:hover {
   }
   
 }
+@media only screen and (max-width:) {
+  
+}
+
+.sidebarcon{
+  position: absolute;
+  top: 0;
+  left: ;
+  width: 10vw;
+  height: 88vh;
+  overflow: hidden;
+  background-color: black;
+  padding-left: 10px;
+}
+
+
+.line {
+  border-bottom: 0.5px solid grey;
+}
+
+#sideBar {
+  height: 20px;
+  margin-bottom: 0%;
+  color: grey;
+  font-weight: bold;
+}
+
+.sideImg {
+  vertical-align: 50%;
+}
+
+#sidebarBody {
+  padding: 0%;
+}
+
+.sidebar-ul {
+  height: 400px;
+  width: 411px;
+  overflow: auto;
+  list-style-type: none;
+  font-size: 10px;
+  color: grey;
+  padding: 0%;
+  font-weight: 280;
+  position: relative;
+}
+
+li {
+  margin-top: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(107,107,107,1);
+    border-radius: 5px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .col-10 {
+      padding: 0%;
+  }
+
+  .col-2 {
+      padding: 20px;
+      padding-right: 10px;
+  }
+
+  #people {
+      position: absolute;
+      right: 25px;
+  }
+
+  #createPlaylist {
+
+      background-color: rgb(156, 156, 156) ;
+      color: black;
+  }
+
+  h1 {
+      font-size: 70px;
+      font-weight: bold;
+      position: absolute;
+      top: 180px;
+      left: 30px;
+  }
+
+  #verified {
+      position: absolute;
+      top: 160px;
+      left: 30px;
+  }
+
+  #alignedCards {
+      align-items: baseline;
+  }
+
+
+  .table {
+    color: white;
+  }
+  
+  .gradBg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 46%,
+      rgba(107, 107, 107, 1) 100%
+    );
+    margin: 0%;
+  }
+  
+  .row {
+    margin: 0%;
+  }
+  
+  .jumbotron {
+    position: relative;
+  }
+  
+  #arrow-left {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+  
+  #arrow-right {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+  
+  #pause {
+    margin: 20px;
+  }
+  
+  #follow {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    border: 0.5px solid;
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    border-radius: 3px;
+    border-color: grey;
+    position: relative;
+  }
+  
+  #threeDots {
+    padding-left: 20px;
+    align-self: center;
+  }
+  
+  .card-sidebar {
+    width: 350px;
+    background-color: transparent;
+    border-color: transparent;
+    height: 35px;
+  }
+  
+  .card-title {
+    font-size: 10px;
+    vertical-align: 50%;
+    margin: 0%;
+  }
+  
+  .table td,
+  .table th {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    vertical-align: 50%;
+  }
+  
+  .songImg {
+    align-self: center;
+  }
+  
+  #cardImg {
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+  }
+  
+  .seeMore {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  
+  .table {
+    height: 200px;
+  }
