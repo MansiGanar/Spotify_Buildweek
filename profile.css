@@ -2,13 +2,7 @@ body {
   text-align: center;
 }
 .container {
-  /* min-width: 600px; */
   max-width: 600px !important;
-}
-.spotify-logo {
-  width: 150px;
-  height: 100px;
-  fill: #000 !important;
 }
 
 button {
@@ -19,16 +13,6 @@ button {
   position: relative;
   left: 10%;
 }
-/* .form-check-input {
-  width: 80%;
-  position: absolute;
-  right: 43%;
-} */
-
-/* .remember-me-checkbox {
-  position: relative;
-  right: 33%;
-} */
 
 .alignright {
   float: right;
@@ -48,7 +32,7 @@ button {
   border: 1px solid;
 }
 .sign-up:hover {
-  background-color: #5cb85c;
+  background-color: #161616;
   color: white;
 }
 
@@ -63,12 +47,10 @@ span {
   margin-left: 10%;
   text-align: center !important;
 }
-
-/* .checkbox-login {
-  width: 80%;
-  margin-left: 13px;
-  padding-right: 0%;
-} */
+a:hover {
+  -moz-text-decoration-style: dashed;
+  text-decoration-color: cadetblue;
+}
 
 @media only screen and (max-width: 600px) {
   .facebook-button {
