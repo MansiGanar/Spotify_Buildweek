@@ -129,7 +129,21 @@ progress {
   justify-content: flex-start;
 }
 
-
+.con1{
+  position: relative;
+  width: 83vw;
+  height: 88vh;
+  overflow-x: hidden;
+}
+.con2{
+  position: relative;
+  
+  width: 17vw;
+  height: 88vh;
+  overflow: hidden;
+  background-color: black;
+    
+}
 
 .buttonBox {
   width: 2.4rem;
@@ -360,7 +374,21 @@ td {
   right: -15px;
   bottom: 22px;
 }
-/* Media player */
+@media only screen and (min-width:850px) {
+  #slider{
+    width: 50vw !important;
+  }
+}
+@media only screen and (max-width:850px) {
+  .rmusic{
+    display: none !important;
+  }
+  .lmusic{
+    display: none !important;
+  }
+}
+
+
 .music-player{
   position: absolute;
   width:100vw;
@@ -383,18 +411,4 @@ td {
   -webkit-appearance: unset;
   height: 4px;
 
-}
-@media only screen and (min-width:850px) {
-  #slider{
-    width: 50vw !important;
-  }
-
-}
-@media only screen and (max-width:850px) {
-  .rmusic{
-    display: none !important;
-  }
-  .lmusic{
-    display: none !important;
-  }
 }
