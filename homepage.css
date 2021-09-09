@@ -68,6 +68,7 @@ h5 {
   border-top: solid 1px gray;
   background-color: rgb(0, 0, 0) !important;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .p-music{
   color: rgba(248, 248, 248, 0.459);
@@ -130,7 +131,6 @@ h5:hover {
 .sidebarcon{
   position: absolute;
   top: 0;
-  left: ;
   width: 10vw;
   height: 88vh;
   overflow: hidden;
