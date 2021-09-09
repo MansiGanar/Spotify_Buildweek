@@ -27,8 +27,8 @@ body {
 }
 .con {
   position: relative;
-  left: 10vw;
-  width: 90vw;
+  left: 17vw;
+  width: 83vw;
   height: 88vh;
   overflow-x: hidden;
 }
@@ -131,11 +131,13 @@ h5:hover {
 .sidebarcon{
   position: absolute;
   top: 0;
-  width: 10vw;
+  width: 17vw;
   height: 88vh;
   overflow: hidden;
   background-color: black;
-  padding-left: 10px;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  padding-top: 2vh;
 }
 
 
@@ -332,3 +334,5 @@ li {
   .table {
     height: 200px;
   }
+
+  
