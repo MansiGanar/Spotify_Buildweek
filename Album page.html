@@ -37,7 +37,7 @@
 
 
 
-#hero-container {
+#pink-container {
   background: rgb(19, 19, 19);
   background: rgb(184, 67, 152);
   background: linear-gradient(
@@ -54,9 +54,6 @@
 .display-4 {
   letter-spacing: 1px;
 }
-#table-container {
-  padding: 0px;
-}
 
 
 
@@ -68,7 +65,10 @@
 }
   </style>
   
-    <title>Album Page</title>
+    <title>Spotify Album Page</title>
+    <link rel = "icon" href = 
+    "./assets/spotify (2).png" 
+            type = "image/x-icon">
 
 
 
@@ -298,17 +298,16 @@
   
    <!-- ------------------------------End of sidenavbar ---------------------------------->
 
-   <div class="col-12 col-md-10 px-0 con1" id="sarada">
+   <div class="col-12 col-md-10 px-0 con1" id="#">
    <!-- <div class="col-10 px-0" id="#"> -->
             <div class="px-0 container-fluid">
               <!-- -----<album>  page start-------->
               <section id="album-section">
-                <div class="container-fluid" id="hero-container">
+                <div class="container-fluid" id="pink-container">
                   <div class="row">
-                    <!-- <a href="#" class="previous round">&#8249;</a>
-                    <a href="#" class="next round">&#8250;</a> -->
+                    
                     <div class="ml-2 sticky-top mt-2">
-                    <button class="btn btn-btn text-white round" type="button">
+                    <button onclick="location.href='homepage.html'" class="btn btn-btn text-white round" type="button">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         data-name="Layer 1"
@@ -323,7 +322,7 @@
                         />
                       </svg>
                     </button>
-                    <button class="btn btn-btn  text-white round" type="button" style="width: 40px">
+                    <button  onclick="location.href='artist.html'"class="btn btn-btn  text-white round" type="button" style="width: 40px">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         data-name="Layer 1"
@@ -338,7 +337,7 @@
                       </svg>
                     </button>
                     </div>
-                    <!-- --------------------- -->
+                    <!-- -----end of arrows---------------- -->
   
                     <div
                       class="dropdown d-flex justify-content-end"
@@ -380,8 +379,9 @@
                         </button>
                        <button onclick="location.href='profile.html'" class="dropdown-item  topdropdwon text-white" type="button">Log out</button>
                       </div>
-                    </div>
-                  </div>
+                    </div> <!-- end of dropdown menu  -->
+                  </div> <!--  -->
+                  
                   <div class="row" id="image-align">
                     <div class="col-4 col-sm-4 col-lg-3 col-xl-3">
                       <img src="./Asset/Bohemain.jpg" class="img-fluid" />
@@ -389,17 +389,18 @@
                     <div
                       class="albumTextContainer col-8 col-sm-8 col-lg-9 col-xl-9"
                     >
-                      <p class="display-7 d-none d-sm-flex d-md-flex align-items-center">
+                      <p class="display-7 d-none d-sm-none d-md-flex">
                         <small style="font-weight: bold;">ALBUM</small>
                         <strong id="fontfirst" class="align-self-center" style="font-size: 30px;">Bohemian Rhapsody(The Original Soundtrack)</strong>
   
-                        <small style="font-size: 15px"
-                          ><strong>Queen &#8226</strong> 2018 &#8226; 22 songs, 1 hr 19mins</small>
+                        <small style="font-size: 15px">
+                          <strong>Queen &#8226</strong> 2018 &#8226; 22 songs, 1 hr 19mins</small>
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> <!--  -->
               </section>
+
               <!-- Table section -->
               <section id="table-section">
                 <div id="color1">
@@ -410,8 +411,8 @@
                     <i class="bi-bi bi-heart"></i>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="35"
-                      height="35"
+                      width="30"
+                      height="30"
                       fill="currentColor"
                       color="white"
                       class="bi bi-heart"
@@ -426,8 +427,8 @@
                     <i class="bi-bi bi-three-dots "></i>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
+                      width="30"
+                      height="30"
                       fill="currentColor"
                       color="white"
                       class="bi bi-three-dots "
