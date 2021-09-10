@@ -18,7 +18,7 @@
 
     <title>Spotify Artist Page</title>
     <link rel = "icon" href = 
-    "./assets/spotify (2).png" 
+    "spotify (2).png" 
             type = "image/x-icon">
   </head>
 
@@ -282,6 +282,8 @@
                 alt="..."
                 id="queen-cover"/>
 
+             
+
             <div class="card mb-3" id="verified">
               <div class="row no-gutters" style="align-items: baseline;">
                 <div class="col-1">
@@ -308,6 +310,10 @@
                 <p id="queenListeners" style="font-size: 10px">37,120,733 monthly listeners</p>
               </div>
 
+                
+              <div
+              class="dropdown d-flex justify-content-end"
+              style="margin-top: 10px"
             >
               <button
                 class="btn btn-dark  badge-pill dropdown-toggle"
@@ -321,7 +327,7 @@
                   id="profilePic"
                   src="./assets/pngfind.com-placeholder-png-6104451.png"
                 />
-
+                Username
               </button>
               <div
                 class="dropdown-menu bg-dark"
@@ -346,7 +352,7 @@
                <button onclick="location.href='profile.html'" class="dropdown-item  topdropdwon text-white" type="button">Log out</button>
               </div>
             </div>
-
+  
           </div>
           <div class="row gradBg">
             <div class="col-12 col-md-8">
@@ -511,16 +517,19 @@
             <div class="col-12 col-md-4">
               <div class="row" style="height: 85px"></div>
               <h4>Artist pick</h4>
-              <div class="card " style="max-width: 200px">
+              <div class="card mb-3" style="max-width: 200px">
                 <div class="row no-gutters alignedCards">
-                  <div class="col-2">
+                  <div class="col-4">
                     <img
                       src="img/artistpick.jpg"
                       alt="..."
                       style="width: 40px; height: 40px"
                     />
                   </div>
-
+                  <div class="col-8" style="position: relative;">
+                    <div class="card-body">
+                      <p style="font-size: 10px; position: absolute; top: 5px;">Posted by Queen</p>
+                      <p class="card-title" style="font-size: 10px; font-weight: bold;">Queen Best of</p>
                       <p style="font-size: 10px;">Playlist</p>
                      
                     </div>
@@ -531,13 +540,18 @@
           </div>
         </div>
       </div>
+
+     
+    
     </div>
-    <div class="music-player d-flex justify-content-around">
+
+    <div class="music-player d-flex justify-content-around" style="position: sticky; bottom: 0;">
       
       <div class="d-flex lmusic" style="width: auto;">
        <img class=" pt-3 pl-3 pb-3 mr-2" src="another.jpeg" alt="">
        <div class="d-flex flex-column">
-
+         <p class="align-self-center text-white mb-0 mt-4" style="font-size: 12p; font-weight: bold;">Another One Bites The Dust</p>
+         <p class="mb-0 text-white" style="font-size: 11px;">Queen</p>
        </div>
        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-heart align-self-center ml-3 mt-3" viewBox="0 0 16 16">
          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
@@ -593,7 +607,7 @@
  
      </div>
       </div>
-
+     <!--  <div class="d-flex align-items-center rmusic" style="width: auto;">
        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-list mr-1" viewBox="0 0 16 16">
          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
        </svg>
@@ -606,11 +620,11 @@
          <path d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"/>
        </svg>
        <input type="range" id="slider2">
-
+      </div>
+        -->
  
-     </div>
-    </div>
-  </div>
+     
+    
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
@@ -623,5 +637,7 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+
+    
   </body>
 </html>
