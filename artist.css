@@ -267,14 +267,16 @@ li {
   }
 
   .music-player{
-    position: absolute;
+    position: sticky;
+    bottom: 0%;
     width:100vw;
     height: 12vh;
-    /* border-top: solid 1px gray; */
-    background-color: rgb(35 35 35) !important;
+    border-top: solid 1px gray;
+    background-color: black !important;
     overflow-y: hidden;
     overflow-x: hidden;
   }
+
   .p-music{
     color: rgba(248, 248, 248, 0.459);
   }
