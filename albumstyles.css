@@ -326,6 +326,8 @@ progress {
 
 .albumTextContainer {
   position: relative;
+  
+  right: 85px;
 }
 
 .display-7{
@@ -397,8 +399,8 @@ progress {
   position: absolute;
   width:100vw;
   height: 12vh;
-  border-top: solid 1px gray;
-  background-color: rgb(0, 0, 0) !important;
+  /* border-top: solid 1px gray; */
+  background-color:  rgb(35 35 35) !important;
   overflow-y: hidden;
   overflow-x: hidden;
 }
