@@ -1,7 +1,7 @@
-/* .main-Container {
+.main-Container {
   max-width: 100vw !important;
   position: relative;
-} */
+}
 
 .main-Container .col-10 {
   /* max-width: 70rem; */
@@ -15,7 +15,7 @@ body {
   /* background: rgb(102, 16, 5);
   background: linear-gradient(180deg, rgb(83, 13, 4) 0%, rgb(0, 0, 0) 35%); */
   background-repeat: no-repeat;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: rgba(255, 255, 255, 0.842) !important;
 }
 
@@ -35,9 +35,9 @@ h4 {
   color: white;
 }
 
-#fontfirst {
+/* #fontfirst {
   font-weight: bold;
-}
+} */
 
 #profilePic {
   width: 30px !important;
@@ -45,13 +45,11 @@ h4 {
   border-radius: 50%;
 }
 
-#notRounded {
-  border-radius: 0% !important;
-}
 
-/* css for footer - media-player */
 
-.mediaPlayerFooter {
+/* css for old media  footer - media-player */
+
+/* .mediaPlayerFooter {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -127,7 +125,7 @@ progress {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-}
+} */
 
 .con1{
   position: relative;
@@ -144,7 +142,7 @@ progress {
   background-color: black;
     
 }
-
+/* Style for play green button */
 .buttonBox {
   width: 2.4rem;
   height: 2.4rem;
@@ -212,22 +210,22 @@ progress {
 
 /* Album page CSS */
 
-.previous,
+/* .previous,
 .next {
   opacity: 0.5;
-}
+} */
 
 #album-body {
   background-color: transparent !important;
 }
 
-a {
+/* a {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
   margin-left: 20px;
   margin-top: 10px;
-}
+} */
 .topdropdwon:hover{
   background-color: rgba(87, 81, 81, 0.575);
   color: rgb(0, 0, 0);
@@ -243,6 +241,7 @@ a {
   border-radius: 100px;
   width: 40px;
 }
+
 /* .previous,
 .next {
   background-color: #0a0a0a;
@@ -274,7 +273,8 @@ a {
 }
 
 #table-section > div {
-  background-color: #21151f;
+  background-color: #20091c;
+  
 }
 
 .bi-bi {
@@ -287,6 +287,10 @@ a {
 #table-section {
   background: rgb(14, 14, 14);
 }
+#table-container {
+  padding: 0px;
+}
+
 #table-container > table {
   background-color: black;
 }
@@ -295,12 +299,13 @@ a {
 }
 
 #table-container > table > thead {
-  background-color: #4417464f;
+  background-color: #2c262c4f;
 }
 #heart {
   position: absolute;
   left: 1.5rem;
-  top: 1.5rem;
+  top: 1.8rem;
+  padding-left: 15px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -308,7 +313,7 @@ a {
 }
 
 
-/*  */
+/* header */
 #image-align img {
   position: relative !important;
   left: 0;
@@ -321,13 +326,9 @@ a {
 
 .albumTextContainer {
   position: relative;
-  left: px;
-  right: 80px;
- 
-
 }
 
-.display-7 {
+.display-7{
   position: absolute;
   left: 1.5rem;
   bottom: 0rem;
@@ -342,9 +343,9 @@ a {
 
 
 
-td {
+/* td {
   transition: 0.1s ease;
-}
+} */
 
 /* td:hover {
   transform: scale(1.0);
@@ -352,6 +353,9 @@ td {
   -ms-transform: scale(1.1);
 } */
 
+
+
+ /* Media-palyer */
 #footerButton {
   transition: 0.2s ease;
 }
