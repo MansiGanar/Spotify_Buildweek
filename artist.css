@@ -41,6 +41,26 @@ body {
   left: 30px;
 }
 
+.dropdown {
+  position: absolute;
+  top: 0.4rem;
+  right: 1rem;
+}
+
+
+
+h4 {
+  color: white;
+}
+
+
+
+#profilePic {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+}
+
 #pause {
   margin: 20px;
 }
