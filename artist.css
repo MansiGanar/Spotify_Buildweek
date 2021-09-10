@@ -269,4 +269,17 @@ li {
   
   }
 
+  @media only screen and (min-width:850px) {
+    #slider{
+      width: 50vw !important;
+    }
   
+  }
+  @media only screen and (max-width:850px) {
+    .rmusic{
+      display: none !important;
+    }
+    .lmusic{
+      display: none !important;
+    }
+  }
