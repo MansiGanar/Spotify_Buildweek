@@ -41,25 +41,6 @@ body {
   left: 30px;
 }
 
-.dropdown {
-  position: absolute;
-  top: 0.4rem;
-  right: 1rem;
-}
-
-
-
-h4 {
-  color: white;
-}
-
-
-
-#profilePic {
-  width: 30px !important;
-  height: 30px !important;
-  border-radius: 50%;
-}
 
 #pause {
   margin: 20px;
@@ -266,7 +247,8 @@ li {
   }
 
   .music-player{
-    position: absolute;
+    position: sticky;
+    bottom: 0%;
     width:100vw;
     height: 12vh;
     /* border-top: solid 1px gray; */
