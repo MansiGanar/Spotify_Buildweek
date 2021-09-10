@@ -41,6 +41,21 @@ body {
   left: 30px;
 }
 
+#profilePic {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+ 
+}
+
+#dropdownMenu2 {
+
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+
 #pause {
   margin: 20px;
 }
@@ -246,7 +261,8 @@ li {
   }
 
   .music-player{
-    position: absolute;
+    position: sticky;
+    bottom: 0%;
     width:100vw;
     height: 12vh;
     /* border-top: solid 1px gray; */
