@@ -344,5 +344,61 @@ li {
   .table {
     height: 200px;
   }
-
+  .music-card3 {
+    background-image: linear-gradient(to right bottom, #ff00de, #df37e9, #bc4bef, #9759f2, #6e61f0, #5076f9, #2d87fd, #0096fd, #00b5ff, #00d1ff, #63e9fb, #a3fff9);
+    width: 41vw;
+    height: auto;
+    border: 1px;
+    border-radius: 5px;
+  }
+  .music-card4 {
+    background-color: rgb(255, 255, 255, 0.1) !important;
+    width: 20vw;
+    height: auto;
+    border: 1px;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width:850px)  {
   
+    .music-card3{
+      background-image: linear-gradient(to right bottom, #ff00de, #df37e9, #bc4bef, #9759f2, #6e61f0, #5076f9, #2d87fd, #0096fd, #00b5ff, #00d1ff, #63e9fb, #a3fff9);
+      width: 50vw;
+      height: auto;
+      border: 1px;
+      border-radius: 5px;
+    }
+    .music-card4 {
+      background-color: rgb(255, 255, 255, 0.1) !important;
+      width: 24vw;
+      height: auto;
+      border: 1px;
+      border-radius: 5px;
+    }
+  }
+  @media only screen and (max-width:766px)  {
+  
+    .music-card3{
+      background-image: linear-gradient(to right bottom, #ff00de, #df37e9, #bc4bef, #9759f2, #6e61f0, #5076f9, #2d87fd, #0096fd, #00b5ff, #00d1ff, #63e9fb, #a3fff9);
+      width: 61.5vw;
+      height: auto;
+      border: 1px;
+      border-radius: 5px;
+    }
+    .music-card4 {
+      background-color: rgb(255, 255, 255, 0.1) !important;
+      width: 30vw;
+      height: auto;
+      border: 1px;
+      border-radius: 5px;
+    }
+  }
+  @media only screen and (max-width:576px)  {
+  
+    .music-card3{
+      background-image: linear-gradient(to right bottom, #ff00de, #df37e9, #bc4bef, #9759f2, #6e61f0, #5076f9, #2d87fd, #0096fd, #00b5ff, #00d1ff, #63e9fb, #a3fff9);
+      width: 89vw;
+      height: 38vh;
+      border: 1px;
+      border-radius: 5px;
+    }
+  }
