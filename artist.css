@@ -269,7 +269,7 @@ li {
   .music-player{
     position: sticky;
     bottom: 0%;
-    width:100vw;
+    width:99.5vw;
     height: 12vh;
     border-top: solid 1px gray;
     background-color: black !important;
