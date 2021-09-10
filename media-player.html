@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="media-player.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d-flex pt-2">
+      <div class="row" style="width: 100%; height: 30px">
+        <div class="col-1 pr-0">
+          <img
+            class="ml-2 mb-2"
+            src="https://i1.sndcdn.com/artworks-FD1flQ4zf6nzywoo-dyuxAw-t500x500.jpg"
+            alt=""
+            style="width: 60px"
+          />
+        </div>
+        <div class="col-3">
+          <div class="row">
+            <div class="col pl-0">
+              <h6>Mere jhidoasd</h6>
+              <p>Queens</p>
+            </div>
+            <a href=""> <i class="far fa-heart pr-3"> </i></a>
+            <a href=""> <i class="fas fa-tablet-alt pr-5"></i></a>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="col">
+            <div class="row justify-content-center">
+              <a href=""> <i class="fas fa-random pl-5 mt-1 mr-3"></i></a>
+              <a href="">
+                <i
+                  class="fas fa-step-backward mt-1 mr-3"
+                  style="font-size: 20px"
+                ></i
+              ></a>
+              <a href="">
+                <i class="fas fa-play-circle mr-3" style="font-size: 30px"></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fas fa-step-forward mt-1 mr-3"
+                  style="font-size: 20px"
+                ></i
+              ></a>
+              <a href=""> <i class="fas fa-redo pr-5 mt-1 mr-3"> </i></a>
+            </div>
+            <div class="row justify-content-between">
+              <p class="pl-4">0:00</p>
+              <div
+                class="progress-bar progress-bar-color mt-2"
+                role="progressbar"
+                style="width: 70%; height: 5px"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <p class="pr-3">1:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-1">
+          <div class="row pl-5">
+            <i class="fas fa-list p-1 pl-2"></i>
+            <i class="fas fa-server p-1 pl-2"></i>
+            <i class="fas fa-volume-up p-1"></i>
+            <!-- <div
+              class="progress-bar progress-bar-color mt-2 p-1"
+              role="progressbar"
+              style="width: 50%; height: 3px"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div> -->
+            <input type="range" id="vol" name="vol" min="0" max="50" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

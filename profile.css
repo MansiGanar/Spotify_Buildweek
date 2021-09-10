@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+}
+.container {
+  max-width: 600px !important;
+}
+
+button {
+  width: 80%;
+}
+.input-group {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.alignright {
+  float: right;
+}
+
+.login-button {
+  width: 130px;
+  height: 35px;
+  border: none;
+  cursor: default !important;
+}
+
+.forget-password {
+  font-size: 14px;
+}
+.sign-up {
+  border: 1px solid;
+}
+.sign-up:hover {
+  background-color: #161616;
+  color: white;
+}
+
+.text-muted {
+  font-size: 12px;
+}
+span {
+  color: #5cb85c;
+}
+.container-for-footer {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center !important;
+}
+a:hover {
+  text-decoration-style: dashed;
+  text-decoration-color: cadetblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .facebook-button {
+    visibility: visible;
+  }
+  .standard {
+    display: none;
+  }
+  .login-btn {
+    width: 100px;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .facebook-button {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .facebook-button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .facebook-button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (min-width: 593px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
+  }
+}
+@media only screen and (min-width: 372px) {
+  .login-btn {
+    width: 100px;
+    float: right;
+  }
+  .test-2 {
+    width: 80%;
+    margin-left: 13px;
+    padding-right: 0%;
+    margin-left: 55px;
+  }
+}
