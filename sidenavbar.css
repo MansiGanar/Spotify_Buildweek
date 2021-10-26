@@ -3,8 +3,6 @@ body {
   color: white;
 }
 
-
-
 .gradBg {
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -72,8 +70,6 @@ body {
   margin: 0%;
 }
 
-
-
 .songImg {
   align-self: center;
 }
@@ -88,9 +84,6 @@ body {
   font-size: 10px;
   text-transform: uppercase;
 }
-
-
-
 
 /* side bar CSS */
 
@@ -131,100 +124,94 @@ li {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: black;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(107,107,107,1);
-    border-radius: 5px;
-    
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+  width: 8px;
+}
 
-  .col-10 {
-      padding: 0%;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
 
-  .col-2 {
-      padding: 20px;
-      padding-right: 10px;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(107, 107, 107, 1);
+  border-radius: 5px;
+}
 
-  #people {
-      position: absolute;
-      right: 25px;
-  }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
-  #createPlaylist {
+.col-10 {
+  padding: 0%;
+}
 
-      background-color: rgb(156, 156, 156) ;
-      color: black;
-  }
+.col-2 {
+  padding: 20px;
+  padding-right: 10px;
+}
 
-  h1 {
-      font-size: 70px;
-      font-weight: bold;
-      position: absolute;
-      top: 180px;
-      left: 30px;
-  }
+#people {
+  position: absolute;
+  right: 25px;
+}
 
-  #verified {
-      position: absolute;
-      top: 160px;
-      left: 30px;
-  }
+#createPlaylist {
+  background-color: rgb(156, 156, 156);
+  color: black;
+}
 
-  #alignedCards {
-      align-items: baseline;
-  }
-  div.alignedCards:hover {
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+}
 
-    background-color: rgba(145, 144, 144, 0.274);
-    border-radius: 2px;
+#verified {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+}
 
-  }
-  a {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  .alignedCards {
-    align-items: baseline;
-    padding-left: 5px;
+#alignedCards {
+  align-items: baseline;
+}
+div.alignedCards:hover {
+  background-color: rgba(145, 144, 144, 0.274);
+  border-radius: 2px;
+}
+a {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+.alignedCards {
+  align-items: baseline;
+  padding-left: 5px;
 }
 
 div.alignedCards:hover {
-
   background-color: rgba(145, 144, 144, 0.274);
   border-radius: 2px;
-
 }
