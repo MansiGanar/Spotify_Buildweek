@@ -30,7 +30,7 @@ const getMusic = async () => {
           />
           <div class="card-body">
             <h6>${song.title}</h6>
-            <p class="card-text">400 songs</p>
+           
           </div>
         </div>
       </div>`;
