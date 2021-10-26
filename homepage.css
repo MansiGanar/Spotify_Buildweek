@@ -151,7 +151,8 @@ h5:hover {
 }
 
 #sideBar {
-  height: 20px;
+  height: 30px;
+
   margin-bottom: 0%;
   color: grey;
   font-weight: bold;
@@ -237,6 +238,7 @@ h1 {
 
 #alignedCards {
   align-items: baseline;
+  margin-top: 0%;
 }
 
 .table {
